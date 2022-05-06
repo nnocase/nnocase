@@ -50,13 +50,13 @@ def colorprint(mes, flag=True):
 class Resume(object):
 
     def __str__(self):
-        return color('谢观发的Python简历'.center(400))
+        return color('谢**的Python简历'.center(400))
 
     @property
     @colorprint('个人信息')
     def personal_information(self):
         return {
-            'Name' : '谢观发',
+            'Name' : '谢**',
             'Tel' : '1807047****',
             'Email' : '***@gmail.com',
             'Education' : {
@@ -104,12 +104,12 @@ class Resume(object):
         return enumerate([
             {
                 'Time period' : '2019.05-2022.05',
-                'Company Name' : '广州点亿汽车科技服务有限公司',
+                'Company Name' : '广州****科技服务有限公司',
                 'Position' : 'Python开发工程师'
             },
             {
                 'Time period' : '2018.09-2019.03',
-                'Company Name' : '广州医键通软件开发有限公司',
+                'Company Name' : '广州***软件开发有限公司',
                 'Position' : '后端开发工程师'
             },
         ])
@@ -119,12 +119,12 @@ class Resume(object):
     def project_experience(self):
         return enumerate([
             {
-                'Project' : '点亿洗车系统',
+                'Project' : '**洗车系统',
                 'Description' : ('技术栈：Python + Flask + PostgreSQL + Celery，'
                                  '网页端管理后台独立完成，并参与API接口开发、服务器部署维护等')
             },
             {
-                'Project' : '车事易托管平台',
+                'Project' : '车**托管平台',
                 'Description' : ('技术栈：Ruby on Rails + PostgreSQL + RabbitMQ，'
                                  '自学了Ruby语言、Ruby on Rails等相关技术，负责该项目后期维护')
             },
@@ -134,7 +134,7 @@ class Resume(object):
                                  '网页端管理后台独立完成，并参与需求分析、数据库设计等')
             },
             {
-                'Project' : '医键通后勤管理系统',
+                'Project' : '医**后勤管理系统',
                 'Description': ('技术栈：Golang + MySQL + gRPC + Elasticsearch，'
                                 '参与开发了保洁系统、医废系统、质检系统、快捷公告模块等')
             }
